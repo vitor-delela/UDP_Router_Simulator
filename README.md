@@ -1,7 +1,7 @@
 # UDP_Router_Simulator
 Router instance simulator using UDP connection
 
-Initially, the IP addresses of neighbors routers must be informed in the application so that several different topologies can be simulated. Each neighbor router is an instance of the implemented router running on another physical machine. 
+Initially, the IP addresses of neighbors routers must be informed in the application so that several different topologies can be simulated. This is made through a text file located at the same folder as the app. The IP addresses must be informed on the file. Each neighbor router is an instance of the implemented router running on another physical machine. 
 
 Three fields must be present in the routing table: Destination IP, Metric and Output IP.
 
